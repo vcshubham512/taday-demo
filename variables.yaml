@@ -1,7 +1,9 @@
 - name: debug demo
   hosts: all
   vars:
-    URL: cloudblitz.in
+    URL: cloudblitz.in-
+  vars_files:
+    - ./file.txt
 
   tasks:
     - debug:
