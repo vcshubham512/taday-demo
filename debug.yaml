@@ -1,6 +1,5 @@
 - name: debug demo
   hosts: all
   tasks:
-    -debug:
+    - debug:
        msg: Hello world
-       
