@@ -1,0 +1,8 @@
+- name: debug demo
+  hosts: all
+  vars:
+    URL: cloudblitz.in
+
+  tasks:
+    - debug:
+        msg: Hello world, {{ URL }}
