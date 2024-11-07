@@ -2,8 +2,8 @@
   hosts: all
   vars:
     URL: cloudblitz.in-
-  vars_files:
-    - ./file.txt
+  # vars_files:
+  # - ./file.txt
 
   tasks:
     - debug:
@@ -16,12 +16,7 @@
 
          
 
-
-
-
-
-
-
-
-
 # Global variables
+# local variables 
+# file variables
+# global variables
